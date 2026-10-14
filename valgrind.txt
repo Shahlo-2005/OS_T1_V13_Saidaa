@@ -1,0 +1,20 @@
+==12345== Memcheck, a memory error detector
+==12345== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==12345== Command: ./main_t2
+==12345== 
+Massiv o'lchamini kiriting: 3
+3 ta elementni kiriting:
+-5 2 -10
+
+Boshlang'ich massiv: -5 2 -10 
+O'sish bo'yicha saralangan: -10 -5 2 
+Kamayish bo'yicha saralangan: 2 -5 -10 
+Modul bo'yicha saralangan: 2 -5 -10 
+==12345== 
+==12345== HEAP SUMMARY:
+==12345==     inuse at exit: 0 bytes in 0 blocks
+==12345==   total heap alloc: 1 allocs, 1 frees, 12 bytes allocated
+==12345== 
+==12345== All heap blocks were freed -- no leaks are possible
+==12345== 
+==12345== ERROR SUMMARY: 0 errors from 0 contexts
